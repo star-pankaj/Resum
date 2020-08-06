@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* main-conatiner */
+body {
+	font-family: 'Mulish', sans-serif;
+}
+
+.rsum-container {
+	margin: 0%;
+}
+
+/* global casss */
+ul {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* navabr */
+.nav-section {
+	background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
+	overflow-x: hidden;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 25%;
+	text-align: center;
+}
+
+.nav-section ul,
+li {
+	padding: 0%;
+}
+
+.nav-section a {
+	font-size: 22px;
+	color: #7028e4;
+}
+
+.nav-section a:hover {
+	color: #fff;
+}
+
+/* .active{
+  background-color:#d90000;
+  color:#fff;
+} */
+.navbar {
+	position: relative;
+	top: 4rem;
+}
+
+.navbar-brand img {
+	width: 160px;
+	height: 160px;
+	border: 8px solid #ffff;
+	border-radius: 50%;
+}
+.form-page{
+	background-color: #8080800d;
+}
+.form-page label {
+	display: inline-block;
+	margin-bottom: .5rem;
+}
+
+.form-page .form-group {
+	margin-bottom: 1rem;
+}
+
+.form-page .form-control {
+	padding: .375rem .75rem;
+	font-size: 1rem;
+	line-height: 1.5;
+	color: #495057;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 1px solid #ced4da;
+	border-radius: .25rem;
+	transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+.form-page input, textarea {
+	padding: 1rem 1rem;
+	width: 100%;
+	margin:0 5px;
+	border:none !important;
+	font-size: 1rem;
+}
+.form-page input , textarea{
+	transition: all 0.125s cubic-bezier(0.2, 0, 0.03, 1);
+}
+.form-page input:focus, textarea:focus {
+	outline: 0;
+	border:none;
+	border-bottom: 2px solid #37ecba !important;
+	border-radius:.0rem;
+}
+.form-page input:focus, textarea:focus{
+	transition: all 0.125s cubic-bezier(0.2, 0, 0.03, 1);
+}
+.btn-primary{
+	/* border-color: transparent; */
+    color: #fff;
+    background-color: #37ecba;
+}
+.btn-primary:hover{
+	border:2px solid #37ecba;
+    color: #37ecba;
+	background-color: #fff;
+}
+
+.btn{
+	display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
